@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=2.0">
+    <title>Calculator</title>
+    <link rel="shortcut icon" href="./Calculator-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+    <div class="box">
+        <div class="b1">
+            <center>
+                <table><tr><td><p style="font-size: 25px;">Enter a Number :</p></td><td><input type="number" placeholder="Enter a Digit" id="n1"></td>
+                </tr>
+                </table>
+            </center>
+                </div>
+        <center><div id="result"></div></center>
+        <center><div id="wait">Wait</div></center>
+        <div class="b2">
+            <center><input type="submit" value="Add" id="add" >
+            <input type="submit" value="Sub" id="sub">
+            <input type="submit" value="Mul" id="mul">
+            <input type="submit" value="Div" id="div"></center>
+        </div>
+        <center><div class="end">
+            <input type="submit" value="=" class="reload" id="answer">
+            <input type="submit" value="Reload" class="reload" id="reload" onclick="window.location.reload()">
+        </div></center>
+    </div>
+    <script src="./design.js"></script>
+</body>
+</html>
